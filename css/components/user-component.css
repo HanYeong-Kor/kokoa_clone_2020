@@ -47,3 +47,8 @@
 .user-component__exclamation {
   margin: 30px 0px 0px 5px;
 }
+
+.user-component__new {
+  display: flex;
+  align-items: center;
+}
