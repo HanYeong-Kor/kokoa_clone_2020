@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chattings - Kokoa Clone</title>
+  </head>
+  <body id="chatting-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>20:12</span>
+      </div>
+      <div class="status-bar__column">
+        <span>92%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <!-- header.alt-header>div.alt-header__column*3 -->
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"><i class="fas fa-angle-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">IU</h1>
+      </div>
+      <div class="alt-header__column chatting-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chatting">
+      <div class="chatting-screen__timestamp">
+        Tuesday, August 25, 2020
+      </div>
+      <div class="message-row">
+        <img
+          src="https://6.viki.io/image/a5c1ca5c85074d38a31f9bcc37af7e04.jpeg?s=900x600&e=t"
+        />
+        <div class="message-row__content">
+          <span class="message-row__author">IU</span>
+          <div class="message-row__info">
+            <span class="message-row__bubble">Hi !</span>
+            <span class="message-row__time">20:07</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row__own">
+        <div class="message-row__content">
+          <div class="message-row__info">
+            <span class="message-row__bubble">Hi, I'm your big fan !</span>
+            <span class="message-row__time">20:08</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-2x"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up fa-lg"></i>
+        </button>
+      </div>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
