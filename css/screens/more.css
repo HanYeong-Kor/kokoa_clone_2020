@@ -7,8 +7,10 @@
 
 .more-screen .icon-row2 {
   display: flex;
-  border-bottom: var(--main-border);
+  justify-content: space-between;
+  border-bottom: 0;
   padding-bottom: 40px;
+  border-bottom: var(--main-border);
 }
 
 .more-screen .icon-row2 .icon-row2__icon {
@@ -36,6 +38,7 @@
 
 .more-suggestions__icons {
   display: flex;
+  justify-content: space-between;
 }
 
 .more-suggestions__icon {
