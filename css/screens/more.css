@@ -1,3 +1,7 @@
+.more-main-screen {
+  height: 100vh;
+}
+
 .more-screen .icon-row {
   display: flex;
   justify-content: space-between;
